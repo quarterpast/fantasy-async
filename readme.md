@@ -14,8 +14,8 @@ var write = async(fs.writeFile);
 var requestPromise = get('/post/123')
 .chain(function(post) { return get('/user/'+post.author); })
 .fold(
-	function error() { return Request.notFound() },
-	function done(user) { return Request.ok(JSON.stringify(user)) }
+	function error() { return Result.notFound() },
+	function done(user) { return Result.ok(JSON.stringify(user)) }
 );
 ```
 
