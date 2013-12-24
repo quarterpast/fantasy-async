@@ -25,7 +25,7 @@ install
 
 api
 ---
-### ``async :: (a -> (e -> r -> ()) -> ()) -> a -> EitherT Promise e r``
+### ``async :: (a → (e → r → ()) → ()) → a → EitherT Promise e r``
 Given a function that takes a Node-style ``function (err, result)`` callback, returns a function that takes the same arguments and returns an ``EitherT Promise`` wrapping the error as ``Left`` or the result as ``Right``.
 
 See [the code for EitherT](https://github.com/quarterto/fantasy-eithers/blob/master/src/either.js#L99) for the complete API.
