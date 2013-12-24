@@ -20,5 +20,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/quarterto/fantasy-async/issues"
+  },
+  "dependencies": {
+    "fantasy-promises": "~0.1.0",
+    "fantasy-eithers": "git+ssh://git@github.com/quarterto/fantasy-eithers#patch-1"
   }
 }
