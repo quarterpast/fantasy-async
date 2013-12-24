@@ -1,0 +1,24 @@
+{
+  "name": "fantasy-async",
+  "version": "0.0.0",
+  "description": "Wrap Node.js callback functions in functional promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:quarterto/fantasy-async"
+  },
+  "keywords": [
+    "fantasy-land",
+    "async",
+    "promises",
+    "callbacks"
+  ],
+  "author": "Matt Brennan <mwrbrennan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quarterto/fantasy-async/issues"
+  }
+}
