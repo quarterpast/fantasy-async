@@ -1,0 +1,28 @@
+fantasy-async
+=============
+
+Wraps functions that want callbacks in pure functional promises.
+
+example
+-------
+```javascript
+var async = require('fantasy-async');
+
+var get = async(request);
+var write = async(fs.writeFile);
+
+var requestPromise = get('/post/123')
+.chain(function(post) { return get('/user/'+post.author); })
+.fold(
+	function error() { return Request.notFound() },
+	function done(user) { return Request.ok(JSON.stringify(user)) }
+);
+```
+
+install
+-------
+```npm install fantasy-async```
+
+licence
+-------
+[MIT](/licence.md)
