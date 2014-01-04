@@ -1,6 +1,6 @@
 {
   "name": "fantasy-async",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrap Node.js callback functions in functional promises",
   "main": "index.js",
   "scripts": {
