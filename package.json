@@ -1,6 +1,6 @@
 {
   "name": "fantasy-async",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Wrap Node.js callback functions in functional promises",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
     "url": "https://github.com/quarterto/fantasy-async/issues"
   },
   "dependencies": {
-    "fantasy-promises": "~0.1.0",
-    "fantasy-eithers": "git+https://github.com/SimonRichardson/fantasy-eithers.git"
+    "fantasy-promises": "git://github.com/fantasyland/fantasy-promises",
+    "fantasy-eithers": "git://github.com/fantasyland/fantasy-eithers"
   },
   "devDependencies": {
     "LiveScript": "~1.2.0"
